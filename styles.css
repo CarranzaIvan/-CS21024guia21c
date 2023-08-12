@@ -5,10 +5,25 @@
     height: 25vh; /* Altura igual a la altura de la ventana (viewport height) */
 }
 
-/* Estilos para centrar el fondo */
-body {
+/* Estilos de fondo */
+body.index {
     background-image: url("imagenes/fondo_index.jpg");
     background-size: cover; /* Ajustar el tamaño de la imagen para cubrir toda la ventana */
     background-position: center; /* Centrar la imagen en el fondo */
     background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
+}
+/* Estilos de fondo */
+body.materiales {
+    background-image: url("imagenes/fondo1.jpg");
+    background-size: cover; /* Ajustar el tamaño de la imagen para cubrir toda la ventana */
+    background-position: center; /* Centrar la imagen en el fondo */
+    background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
+}
+.contenedorTexto {
+    /* Estilos para el contenido del sitio */
+    text-align: left; /* Alinear el contenido horizontalmente en el centro */
+    padding: 30px;
+    font-family: Arial, sans-serif; /* Utilizar una fuente sans-serif (sin remates) */
+    font-size: 20px; /* Tamaño de fuente base */
+    line-height: 1.5; /* Espaciado de línea para una mejor legibilidad */
 }
