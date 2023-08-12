@@ -12,13 +12,6 @@ body.index {
     background-position: center; /* Centrar la imagen en el fondo */
     background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
 }
-/* Estilos de fondo */
-body.materiales {
-    background-image: url("imagenes/fondo1.jpg");
-    background-size: cover; /* Ajustar el tamaño de la imagen para cubrir toda la ventana */
-    background-position: center; /* Centrar la imagen en el fondo */
-    background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
-}
 .contenedorTexto {
     /* Estilos para el contenido del sitio */
     text-align: left; /* Alinear el contenido horizontalmente en el centro */
